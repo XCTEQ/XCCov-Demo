@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>20AC0F30-280A-424C-BE85-B15BB2F02FBD</key>
+		<key>165D1232-9F77-454B-9FC9-C93C1266DA80</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,71 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>20AC0F30-280A-424C-BE85-B15BB2F02FBD.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>XCCov-Demo project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>XCCov-Demo</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Cleaning project XCCov-Demo with scheme XCCov-Demo</string>
-			<key>timeStartedRecording</key>
-			<real>575963746.01032698</real>
-			<key>timeStoppedRecording</key>
-			<real>575963746.57914603</real>
-			<key>title</key>
-			<string>Cleaning project XCCov-Demo with scheme XCCov-Demo</string>
-			<key>uniqueIdentifier</key>
-			<string>20AC0F30-280A-424C-BE85-B15BB2F02FBD</string>
-		</dict>
-		<key>3707BFC6-79E7-42C4-9FD5-17E51B2BDBB0</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3707BFC6-79E7-42C4-9FD5-17E51B2BDBB0.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>XCCov-Demo project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>XCCov-Demo</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Testing project XCCov-Demo with scheme XCCov-Demo</string>
-			<key>timeStartedRecording</key>
-			<real>575963797.88947499</real>
-			<key>timeStoppedRecording</key>
-			<real>575963805.82970595</real>
-			<key>title</key>
-			<string>Testing project XCCov-Demo with scheme XCCov-Demo</string>
-			<key>uniqueIdentifier</key>
-			<string>3707BFC6-79E7-42C4-9FD5-17E51B2BDBB0</string>
-		</dict>
-		<key>56F21D4E-F707-4A6F-834B-85B963E55BD6</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>56F21D4E-F707-4A6F-834B-85B963E55BD6.xcactivitylog</string>
+			<string>165D1232-9F77-454B-9FC9-C93C1266DA80.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -94,13 +30,77 @@
 			<key>signature</key>
 			<string>Building project XCCov-Demo with scheme XCCov-Demo</string>
 			<key>timeStartedRecording</key>
-			<real>575963746.58042502</real>
+			<real>575965982.22549295</real>
 			<key>timeStoppedRecording</key>
-			<real>575963797.888937</real>
+			<real>575966005.30403197</real>
 			<key>title</key>
 			<string>Building project XCCov-Demo with scheme XCCov-Demo</string>
 			<key>uniqueIdentifier</key>
-			<string>56F21D4E-F707-4A6F-834B-85B963E55BD6</string>
+			<string>165D1232-9F77-454B-9FC9-C93C1266DA80</string>
+		</dict>
+		<key>568CF109-CCB4-428C-A97F-EA740620F8E8</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>568CF109-CCB4-428C-A97F-EA740620F8E8.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>XCCov-Demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>XCCov-Demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project XCCov-Demo with scheme XCCov-Demo</string>
+			<key>timeStartedRecording</key>
+			<real>575966005.304618</real>
+			<key>timeStoppedRecording</key>
+			<real>575966013.71633697</real>
+			<key>title</key>
+			<string>Testing project XCCov-Demo with scheme XCCov-Demo</string>
+			<key>uniqueIdentifier</key>
+			<string>568CF109-CCB4-428C-A97F-EA740620F8E8</string>
+		</dict>
+		<key>815B3E81-3F96-44D3-A731-22A85F57FEB6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>815B3E81-3F96-44D3-A731-22A85F57FEB6.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>XCCov-Demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>XCCov-Demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project XCCov-Demo with scheme XCCov-Demo</string>
+			<key>timeStartedRecording</key>
+			<real>575965982.09817696</real>
+			<key>timeStoppedRecording</key>
+			<real>575965982.22453296</real>
+			<key>title</key>
+			<string>Cleaning project XCCov-Demo with scheme XCCov-Demo</string>
+			<key>uniqueIdentifier</key>
+			<string>815B3E81-3F96-44D3-A731-22A85F57FEB6</string>
 		</dict>
 	</dict>
 </dict>

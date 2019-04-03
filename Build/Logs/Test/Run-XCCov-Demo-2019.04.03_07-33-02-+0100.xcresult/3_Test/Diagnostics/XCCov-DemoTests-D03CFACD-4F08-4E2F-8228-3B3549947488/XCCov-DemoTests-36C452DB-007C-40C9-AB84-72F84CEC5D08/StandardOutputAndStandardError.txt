@@ -1,0 +1,19 @@
+2019-04-03 07:33:39.959298+0100 XCCov-Demo[18023:1445515] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:33:39.959466+0100 XCCov-Demo[18023:1445515] [AXMediaCommon] Unexpected physical screen orientation
+2019-04-03 07:33:39.987267+0100 XCCov-Demo[18023:1445515] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:33:39.997770+0100 XCCov-Demo[18023:1445515] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:33:39.997919+0100 XCCov-Demo[18023:1445515] [AXMediaCommon] Unexpected physical screen orientation
+Test Suite 'All tests' started at 2019-04-03 07:33:40.325
+Test Suite 'XCCov-DemoTests.xctest' started at 2019-04-03 07:33:40.326
+Test Suite 'XCCov_DemoTests' started at 2019-04-03 07:33:40.327
+Test Case '-[XCCov_DemoTests.XCCov_DemoTests testExample]' started.
+Test Case '-[XCCov_DemoTests.XCCov_DemoTests testExample]' passed (0.001 seconds).
+Test Case '-[XCCov_DemoTests.XCCov_DemoTests testPerformanceExample]' started.
+/Users/shashi/workspace/XCCov-Demo/XCCov-DemoTests/XCCov_DemoTests.swift:31: Test Case '-[XCCov_DemoTests.XCCov_DemoTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 97.169%, values: [0.000003, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XCCov_DemoTests.XCCov_DemoTests testPerformanceExample]' passed (0.322 seconds).
+Test Suite 'XCCov_DemoTests' passed at 2019-04-03 07:33:40.652.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.323 (0.325) seconds
+Test Suite 'XCCov-DemoTests.xctest' passed at 2019-04-03 07:33:40.653.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.323 (0.327) seconds
+Test Suite 'All tests' passed at 2019-04-03 07:33:40.654.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.323 (0.328) seconds

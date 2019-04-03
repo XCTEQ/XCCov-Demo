@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>70A7F36A-DB13-4F08-8907-2D23CA05070B</key>
+		<key>6C6FDCDE-1431-4E4A-AA7D-EE1456BA88A5</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>20AC0F30-280A-424C-BE85-B15BB2F02FBD</string>
+			<string>815B3E81-3F96-44D3-A731-22A85F57FEB6</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,7 +22,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Run-XCCov-Demo-2019.04.03_06-55-46-+0100.xcresult</string>
+			<string>Run-XCCov-Demo-2019.04.03_07-33-02-+0100.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasCoverageData</key>
@@ -41,13 +41,13 @@
 			<key>signature</key>
 			<string>Run XCCov-Demo</string>
 			<key>timeStartedRecording</key>
-			<real>575963746.02008796</real>
+			<real>575965982.10035706</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run XCCov-Demo</string>
 			<key>uniqueIdentifier</key>
-			<string>70A7F36A-DB13-4F08-8907-2D23CA05070B</string>
+			<string>6C6FDCDE-1431-4E4A-AA7D-EE1456BA88A5</string>
 		</dict>
 	</dict>
 </dict>

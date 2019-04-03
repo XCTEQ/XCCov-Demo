@@ -1,0 +1,24 @@
+2019-04-03 07:33:44.664570+0100 XCCov-DemoUITests-Runner[18024:1445581] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:33:44.664748+0100 XCCov-DemoUITests-Runner[18024:1445581] [AXMediaCommon] Unexpected physical screen orientation
+2019-04-03 07:33:44.700544+0100 XCCov-DemoUITests-Runner[18024:1445581] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:33:44.708840+0100 XCCov-DemoUITests-Runner[18024:1445581] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:33:44.708997+0100 XCCov-DemoUITests-Runner[18024:1445581] [AXMediaCommon] Unexpected physical screen orientation
+2019-04-03 07:33:44.737712+0100 XCCov-DemoUITests-Runner[18024:1445581] Running tests...
+Test Suite 'All tests' started at 2019-04-03 07:33:44.940
+Test Suite 'XCCov-DemoUITests.xctest' started at 2019-04-03 07:33:44.942
+Test Suite 'XCCov_DemoUITests' started at 2019-04-03 07:33:44.943
+Test Case '-[XCCov_DemoUITests.XCCov_DemoUITests testExample]' started.
+    t =     0.00s Start Test at 2019-04-03 07:33:44.945
+    t =     0.06s Set Up
+    t =     0.07s     Open test.XCCov-Demo
+    t =     0.12s         Launch test.XCCov-Demo
+    t =     2.92s             Wait for accessibility to load
+    t =     3.31s             Wait for test.XCCov-Demo to idle
+    t =     4.70s Tear Down
+Test Case '-[XCCov_DemoUITests.XCCov_DemoUITests testExample]' passed (4.905 seconds).
+Test Suite 'XCCov_DemoUITests' passed at 2019-04-03 07:33:49.850.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.905 (4.907) seconds
+Test Suite 'XCCov-DemoUITests.xctest' passed at 2019-04-03 07:33:49.851.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.905 (4.909) seconds
+Test Suite 'All tests' passed at 2019-04-03 07:33:49.853.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.905 (4.913) seconds

@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
 options: "a497d14149b44af346651f30ce42cb38"
-build_time: [1554270998, 362300000]
+build_time: [1554273206, 266772000]
 inputs:
   "/Users/shashi/workspace/XCCov-Demo/XCCov-DemoUITests/XCCov_DemoUITests.swift": [1522688362, 0]

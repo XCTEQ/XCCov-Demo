@@ -13,12 +13,12 @@
 				<key>testExample()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>0.0019050836563110352</real>
+					<real>0.0014879703521728516</real>
 				</dict>
 				<key>testPerformanceExample()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>5.5907399654388428</real>
+					<real>0.32167506217956543</real>
 				</dict>
 			</dict>
 		</dict>
@@ -29,7 +29,7 @@
 				<key>testExample()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>10.892292022705078</real>
+					<real>4.9048339128494263</real>
 				</dict>
 			</dict>
 		</dict>

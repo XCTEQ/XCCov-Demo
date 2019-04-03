@@ -1,5 +1,0 @@
-2019-04-03 06:01:10 +0000: Received worker from worker provider: 0x7ff352ef9820 [0: iPhone 7 (F43CAB07-3939-4A13-A4EA-F74B78448C1B)]
-2019-04-03 06:01:42 +0000: Worker 0x7ff352ef9820 [14503: iPhone 7 (F43CAB07-3939-4A13-A4EA-F74B78448C1B)] finished bootstrapping
-2019-04-03 06:01:42 +0000: Parallelization disabled; test execution driven by the test process
-2019-04-03 06:02:15 +0000: Worker 0x7ff352ef9820 [14503: iPhone 7 (F43CAB07-3939-4A13-A4EA-F74B78448C1B)] finished successfully
-2019-04-03 06:02:15 +0000: Finished executing tests (cancelled: No)
