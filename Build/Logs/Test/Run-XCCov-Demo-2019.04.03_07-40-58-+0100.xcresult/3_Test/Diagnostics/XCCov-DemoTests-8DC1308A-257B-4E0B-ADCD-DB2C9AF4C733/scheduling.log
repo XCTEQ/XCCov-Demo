@@ -1,0 +1,5 @@
+2019-04-03 06:41:10 +0000: Received worker from worker provider: 0x7fec0abe8b70 [0: iPhone Xʀ (E3EE70E1-C238-41F1-A8CD-A44D32D105CE)]
+2019-04-03 06:41:14 +0000: Worker 0x7fec0abe8b70 [19740: iPhone Xʀ (E3EE70E1-C238-41F1-A8CD-A44D32D105CE)] finished bootstrapping
+2019-04-03 06:41:14 +0000: Parallelization disabled; test execution driven by the test process
+2019-04-03 06:41:15 +0000: Worker 0x7fec0abe8b70 [19740: iPhone Xʀ (E3EE70E1-C238-41F1-A8CD-A44D32D105CE)] finished successfully
+2019-04-03 06:41:15 +0000: Finished executing tests (cancelled: No)

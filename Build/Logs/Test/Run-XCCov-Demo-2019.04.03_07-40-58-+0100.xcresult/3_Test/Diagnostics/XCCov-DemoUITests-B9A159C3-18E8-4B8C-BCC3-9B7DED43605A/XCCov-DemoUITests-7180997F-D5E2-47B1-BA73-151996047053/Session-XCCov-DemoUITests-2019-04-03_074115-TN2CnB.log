@@ -1,0 +1,475 @@
+07:41:15.566 xcodebuild[19366:1454641] Beginning test session XCCov-DemoUITests-4391BFCD-F9C1-4FAA-83C5-C9473DA88418 at 2019-04-03 07:41:15.565 with Xcode 10E125 on target <DVTiPhoneSimulator: 0x7fec0ab22d00> {
+		SimDevice: iPhone Xʀ (E3EE70E1-C238-41F1-A8CD-A44D32D105CE, iOS 12.2, Booted)
+} (12.2 (16E226))
+07:41:15.566 xcodebuild[19366:1454641] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-project
+XCCov-Demo.xcodeproj/
+-scheme
+XCCov-Demo
+-derivedDataPath
+Build/
+-destination
+platform=iOS Simulator,OS=12.2,name=iPhone Xʀ
+-enableCodeCoverage
+YES
+clean
+build
+test
+CODE_SIGN_IDENTITY=
+CODE_SIGNING_REQUIRED=NO
+07:41:15.566 xcodebuild[19366:1454641] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+07:41:15.567 xcodebuild[19366:1454641] Test standard output and standard error is at /Users/shashi/workspace/XCCov-Demo/Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/Diagnostics/XCCov-DemoUITests-B9A159C3-18E8-4B8C-BCC3-9B7DED43605A/XCCov-DemoUITests-7180997F-D5E2-47B1-BA73-151996047053/StandardOutputAndStandardError.txt
+07:41:15.574 xcodebuild[19366:1454684] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec07ee95a0 on simulator was issued, 2 claims exist.
+07:41:15.574 xcodebuild[19366:1454641] Setting up test runner session
+07:41:15.574 xcodebuild[19366:1455751] Sim iPhone Xʀ: Unregistering for sim device notification with token 13
+07:41:15.574 xcodebuild[19366:1454641] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    backboardd,
+    xctest,
+    "XCCov-DemoUITests-Runner",
+    "XCCov-Demo"
+)
+07:41:15.574 xcodebuild[19366:1455751] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+07:41:15.575 xcodebuild[19366:1455751] Sim iPhone Xʀ has testmanagerd socket at /private/tmp/com.apple.launchd.dPwvR4y8OD/com.apple.testmanagerd.unix-domain.socket
+07:41:15.576 xcodebuild[19366:1455751] Validating test connection socket path (/private/tmp/com.apple.launchd.dPwvR4y8OD/com.apple.testmanagerd.unix-domain.socket)
+07:41:15.576 xcodebuild[19366:1455751] Constructing transport for test connection socket
+07:41:15.576 xcodebuild[19366:1455751] Connected socket 25 to testmanagerd for Sim iPhone Xʀ
+07:41:15.576 xcodebuild[19366:1455757] Received connection for test runner session
+07:41:15.576 xcodebuild[19366:1455757] Listening for proxy connection request from the test bundle
+07:41:15.576 xcodebuild[19366:1454641] Test runner session acquired connection.
+07:41:15.577 xcodebuild[19366:1455757] Initiating session with identifier: 4391BFCD-F9C1-4FAA-83C5-C9473DA88418
+07:41:15.577 xcodebuild[19366:1454641] Waiting for test process to launch.
+07:41:15.582 xcodebuild[19366:1454641] Finished requesting crash reports. Continuing with testing.
+07:41:15.583 xcodebuild[19366:1455757] Got reply to session initiation request with identifier 4391BFCD-F9C1-4FAA-83C5-C9473DA88418 (result:error): 29: (null)
+07:41:15.585 xcodebuild[19366:1454641] Launch session started.
+07:41:15.586 xcodebuild[19366:1455757] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec07ee95a0 on simulator was issued, 2 claims exist.
+07:41:15.587 xcodebuild[19366:1455751] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec07ee95a0 on simulator was issued, 2 claims exist.
+07:41:15.588 xcodebuild[19366:1455751] E3EE70E1-C238-41F1-A8CD-A44D32D105CE: Registered for sim device notification, got token 16
+07:41:15.588 xcodebuild[19366:1455757] E3EE70E1-C238-41F1-A8CD-A44D32D105CE: Unregistering for sim device notification with token 16
+07:41:15.588 xcodebuild[19366:1455757] E3EE70E1-C238-41F1-A8CD-A44D32D105CE: Installing app at path: /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-DemoUITests-Runner.app and options: (null)
+07:41:16.645 xcodebuild[19366:1455757] E3EE70E1-C238-41F1-A8CD-A44D32D105CE: Installed app at path: /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-DemoUITests-Runner.app and options: (null)
+07:41:16.647 xcodebuild[19366:1455757] E3EE70E1-C238-41F1-A8CD-A44D32D105CE: Launching app with identifier: com.apple.test.XCCov-DemoUITests-Runner and options: {
+    "activate_suspended" = 1;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FRAMEWORK_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator::/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+        "LLVM_PROFILE_FILE" = "/var/folders/60/176pv77j0vj50z7zh5kqtrz00000gn/T/com.apple.test.XCCov-DemoUITests-Runner/6BA78F55-FB69-4C33-BC88-25394EE58D01-19366-0000631106A4E97D/332D6C0A-CE89-490C-ABAE-7DCCBA7CA23B-%p.profraw%15x";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCTestConfigurationFilePath = "/Users/shashi/workspace/XCCov-Demo/Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/Diagnostics/XCCov-DemoUITests-B9A159C3-18E8-4B8C-BCC3-9B7DED43605A/XCCov-DemoUITests-7180997F-D5E2-47B1-BA73-151996047053/LaunchSessions/4391BFCD-F9C1-4FAA-83C5-C9473DA88418/remote-container/tmp/XCCov-DemoUITests-4391BFCD-F9C1-4FAA-83C5-C9473DA88418.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/60/176pv77j0vj50z7zh5kqtrz00000gn/T/com.apple.test.XCCov-DemoUITests-Runner/6BA78F55-FB69-4C33-BC88-25394EE58D01-19366-0000631106A4E97D/332D6C0A-CE89-490C-ABAE-7DCCBA7CA23B-%p.profraw%15x";
+    };
+    stderr = "/dev/ttys004";
+    stdout = "/dev/ttys004";
+    "wait_for_debugger" = 0;
+}
+07:41:18.892 xcodebuild[19366:1455757] E3EE70E1-C238-41F1-A8CD-A44D32D105CE: Launched app with identifier: com.apple.test.XCCov-DemoUITests-Runner (pid = 19743)
+07:41:18.893 xcodebuild[19366:1455757] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> tracking pid 19743
+07:41:18.893 xcodebuild[19366:1455757] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> checking to see if pid 19743 is valid: kill(pid, 0) = 0 (YES, it's still running)
+07:41:18.895 xcodebuild[19366:1454641] Test process runnable PID is 19743.
+2019-04-03 07:41:19.197954+0100 XCCov-DemoUITests-Runner[19743:1456040] Running tests...
+07:41:19.254 xcodebuild[19366:1454684] Handling proxy channel request from test runner
+07:41:19.254 xcodebuild[19366:1454684] Test runner is ready, running protocol 30, requires at least version 7. Control framework is running 30 and requires at least 7
+07:41:19.254 xcodebuild[19366:1454641] Test runner session successfully initiated.
+07:41:19.254 xcodebuild[19366:1454641] Whitelisting test process ID 19743
+07:41:19.256 xcodebuild[19366:1454641] Got whitelisting response from test daemon: Success
+07:41:19.256 xcodebuild[19366:1454641] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    backboardd,
+    xctest,
+    "XCCov-DemoUITests-Runner",
+    "XCCov-Demo"
+)
+07:41:19.256 xcodebuild[19366:1454641] Telling test runner to start executing tests.
+07:41:19.256 XCCov-DemoUITests-Runner[19743:1456044] _IDE_startExecutingTestPlanWithProtocolVersion:30
+07:41:19.256 XCCov-DemoUITests-Runner[19743:1456044] <XCTWaiter: 0x600002ab8da0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.257 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8da0, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.257 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab8da0, state: XCTWaiterStateInProgress>.
+07:41:19.257 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8da0, state: XCTWaiterStateSucceeded> cleaning up `IDE session ready for test plan`
+07:41:19.217 XCCov-DemoUITests-Runner[19743:1456040] Linked XCTest.framework from /Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Containers/Bundle/Application/5060AAC9-CE5B-4AB7-B9A4-785D2DD4A49D/XCCov-DemoUITests-Runner.app/Frameworks/XCTest.framework/XCTest, built with Xcode 1020(10E113a), modified on Wednesday, April 3, 2019 at 7:41:09 AM British Summer Time
+XCTest.framework bundle version: 14490.71
+07:41:19.219 XCCov-DemoUITests-Runner[19743:1456040] System uptime: 30:35
+07:41:19.219 XCCov-DemoUITests-Runner[19743:1456040] Process arguments: (
+    "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Containers/Bundle/Application/5060AAC9-CE5B-4AB7-B9A4-785D2DD4A49D/XCCov-DemoUITests-Runner.app/XCCov-DemoUITests-Runner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+07:41:19.219 XCCov-DemoUITests-Runner[19743:1456040] Process environment: {
+    "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+    "CA_DEBUG_TRANSACTIONS" = 0;
+    "CFFIXED_USER_HOME" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Containers/Data/Application/E2CE88CB-3BE3-4CD9-893C-E4B970EAD52D";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.aJaPqxiySZ/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator::/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:";
+    "DYLD_LIBRARY_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Containers/Data/Application/E2CE88CB-3BE3-4CD9-893C-E4B970EAD52D";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/tmp/com.apple.CoreSimulator.SimDevice.E3EE70E1-C238-41F1-A8CD-A44D32D105CE/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Library/Application Support/Simulator/extended_display.plist";
+    "LLVM_PROFILE_FILE" = "/var/folders/60/176pv77j0vj50z7zh5kqtrz00000gn/T/com.apple.test.XCCov-DemoUITests-Runner/6BA78F55-FB69-4C33-BC88-25394EE58D01-19366-0000631106A4E97D/332D6C0A-CE89-490C-ABAE-7DCCBA7CA23B-%p.profraw%15x";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.FmV552r4jU/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1554271844;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone X\U0280.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone X\U0280";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/shashi";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/shashi/Library/Logs/CoreSimulator/E3EE70E1-C238-41F1-A8CD-A44D32D105CE";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1792;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 828;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone11,8";
+    "SIMULATOR_PRODUCT_CLASS" = N841;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 16E226;
+    "SIMULATOR_RUNTIME_VERSION" = "12.2";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data";
+    "SIMULATOR_UDID" = "E3EE70E1-C238-41F1-A8CD-A44D32D105CE";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 587.35 - Device: iPhone X\U0280 (E3EE70E1-C238-41F1-A8CD-A44D32D105CE) - Runtime: iOS 12.2 (16E226) - DeviceType: iPhone X\U0280";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_REMOTE_AUTOMATION_SIM_SOCK" = "/private/tmp/com.apple.launchd.zU9vG9BUkB/com.apple.testmanagerd.remote-automation.unix-domain.socket";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.dPwvR4y8OD/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Containers/Data/Application/E2CE88CB-3BE3-4CD9-893C-E4B970EAD52D/tmp";
+    XCTestConfigurationFilePath = "/Users/shashi/workspace/XCCov-Demo/Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/Diagnostics/XCCov-DemoUITests-B9A159C3-18E8-4B8C-BCC3-9B7DED43605A/XCCov-DemoUITests-7180997F-D5E2-47B1-BA73-151996047053/LaunchSessions/4391BFCD-F9C1-4FAA-83C5-C9473DA88418/remote-container/tmp/XCCov-DemoUITests-4391BFCD-F9C1-4FAA-83C5-C9473DA88418.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.XCCov-DemoUITests-Runner[0x2859][15451]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.E3EE70E1-C238-41F1-A8CD-A44D32D105CE";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator:/Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/60/176pv77j0vj50z7zh5kqtrz00000gn/T/com.apple.test.XCCov-DemoUITests-Runner/6BA78F55-FB69-4C33-BC88-25394EE58D01-19366-0000631106A4E97D/332D6C0A-CE89-490C-ABAE-7DCCBA7CA23B-%p.profraw%15x";
+}
+07:41:19.220 XCCov-DemoUITests-Runner[19743:1456040] App Sandbox active: NO
+07:41:19.220 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Acquiring IDE transport' with timeout 60.00
+07:41:19.222 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+07:41:19.223 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8cf0, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `Exchange protocol versions with daemon`
+07:41:19.224 XCCov-DemoUITests-Runner[19743:1456041] <XCTWaiter: 0x600002ab8cf0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.225 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8cf0, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.225 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab8cf0, state: XCTWaiterStateInProgress>.
+07:41:19.225 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8cf0, state: XCTWaiterStateSucceeded> cleaning up `Exchange protocol versions with daemon`
+07:41:19.225 XCCov-DemoUITests-Runner[19743:1456040] Got daemon protocol version 26
+07:41:19.225 XCCov-DemoUITests-Runner[19743:1456040] Requesting IDE connection transport
+07:41:19.226 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab45f0, state: XCTWaiterStateInProgress> entering wait loop for 59.99s with expectations: `Acquiring IDE transport`
+07:41:19.227 XCCov-DemoUITests-Runner[19743:1456041] Creating transport with received transport data
+07:41:19.228 XCCov-DemoUITests-Runner[19743:1456041] <XCTWaiter: 0x600002ab45f0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.228 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab45f0, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.228 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab45f0, state: XCTWaiterStateInProgress>.
+07:41:19.228 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab45f0, state: XCTWaiterStateSucceeded> cleaning up `Acquiring IDE transport`
+07:41:19.228 XCCov-DemoUITests-Runner[19743:1456040] Creating connection with transport <DTXFileDescriptorTransport: 0x6000003b8930>
+07:41:19.229 XCCov-DemoUITests-Runner[19743:1456040] Creating the proxy channel with connection <DTXConnection 0x6000014b0500 : x1>
+07:41:19.262 xcodebuild[19366:1454641] Starting test plan, clearing initialization timeout timer.
+07:41:19.262 XCCov-DemoUITests-Runner[19743:1456040] Initializing for UI testing.
+07:41:19.273 XCCov-DemoUITests-Runner[19743:1456040] Linked XCTAutomationSupport.framework from /Users/shashi/Library/Developer/CoreSimulator/Devices/E3EE70E1-C238-41F1-A8CD-A44D32D105CE/data/Containers/Bundle/Application/5060AAC9-CE5B-4AB7-B9A4-785D2DD4A49D/XCCov-DemoUITests-Runner.app/Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport, built with Xcode 1020(10E113a), modified on Wednesday, April 3, 2019 at 7:41:09 AM British Summer Time
+XCTAutomationSupport.framework bundle version: 14490.71
+07:41:19.274 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Loading Accessibility' with timeout 70.00
+07:41:19.276 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: `Loading Accessibility`
+2019-04-03 07:41:19.396360+0100 XCCov-DemoUITests-Runner[19743:1456040] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:41:19.396577+0100 XCCov-DemoUITests-Runner[19743:1456040] [AXMediaCommon] Unexpected physical screen orientation
+2019-04-03 07:41:19.425392+0100 XCCov-DemoUITests-Runner[19743:1456040] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:41:19.432869+0100 XCCov-DemoUITests-Runner[19743:1456040] [AXMediaCommon] Unable to look up screen scale
+2019-04-03 07:41:19.433330+0100 XCCov-DemoUITests-Runner[19743:1456040] [AXMediaCommon] Unexpected physical screen orientation
+07:41:19.595 XCCov-DemoUITests-Runner[19743:1456042] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.595 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.595 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateInProgress>.
+07:41:19.595 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateSucceeded> cleaning up `Loading Accessibility`
+07:41:19.595 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Enable gathering of localized strings' with timeout 70.00
+07:41:19.596 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateSucceeded> entering wait loop for 70.00s with expectations: `Enable gathering of localized strings`
+07:41:19.596 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.596 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateInProgress>.
+07:41:19.597 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateSucceeded> cleaning up `Enable gathering of localized strings`
+07:41:19.597 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Set AX timeout to 60.00s' with timeout 65.00
+07:41:19.598 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8f70, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Set AX timeout to 60.00s`
+07:41:19.598 XCCov-DemoUITests-Runner[19743:1456046] <XCTWaiter: 0x600002ab8f70, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.598 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8f70, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.598 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab8f70, state: XCTWaiterStateInProgress>.
+07:41:19.598 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab8f70, state: XCTWaiterStateSucceeded> cleaning up `Set AX timeout to 60.00s`
+07:41:19.600 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Registering for kAXUserTestingNotification' with timeout 65.00
+07:41:19.600 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXUserTestingNotification`
+07:41:19.600 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.600 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateInProgress>.
+07:41:19.600 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4c50, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXUserTestingNotification`
+07:41:19.601 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Registering for kAXAlertNotification' with timeout 65.00
+07:41:19.601 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXAlertNotification`
+07:41:19.602 XCCov-DemoUITests-Runner[19743:1456041] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.602 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.602 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateInProgress>.
+07:41:19.602 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4ca0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXAlertNotification`
+07:41:19.602 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Registering for kAXPidStatusChangedNotification' with timeout 65.00
+07:41:19.603 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4d30, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXPidStatusChangedNotification`
+07:41:19.603 XCCov-DemoUITests-Runner[19743:1456042] <XCTWaiter: 0x600002ab4d30, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.603 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4d30, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.603 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab4d30, state: XCTWaiterStateInProgress>.
+07:41:19.603 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab4d30, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXPidStatusChangedNotification`
+07:41:19.604 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Request background assertion for test process' with timeout 30.00
+07:41:19.605 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab9710, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request background assertion for test process`
+07:41:19.606 XCCov-DemoUITests-Runner[19743:1456043] Got reply for background assertion for 19743, acquired: YES.
+07:41:19.606 XCCov-DemoUITests-Runner[19743:1456043] <XCTWaiter: 0x600002ab9710, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:19.606 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab9710, state: XCTWaiterStateSucceeded> done waiting
+07:41:19.606 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab9710, state: XCTWaiterStateInProgress>.
+07:41:19.606 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab9710, state: XCTWaiterStateSucceeded> cleaning up `Request background assertion for test process`
+07:41:19.607 XCCov-DemoUITests-Runner[19743:1456040] Test runner is already executing in the background.
+07:41:19.607 XCCov-DemoUITests-Runner[19743:1456040] Done initializing for UI testing.
+07:41:19.608 XCCov-DemoUITests-Runner[19743:1456040] Entering test execution event loop
+07:41:19.608 XCCov-DemoUITests-Runner[19743:1456040] -[XCTRunnerIDESession testBundleWillStart:]
+07:41:19.608 XCCov-DemoUITests-Runner[19743:1456040] Loading test suite...
+07:41:19.678 XCCov-DemoUITests-Runner[19743:1456040] Finished loading test suite, took 0.070s
+07:41:19.678 XCCov-DemoUITests-Runner[19743:1456040] Running suite...
+Test Suite 'All tests' started at 2019-04-03 07:41:19.678
+07:41:19.680 XCCov-DemoUITests-Runner[19743:1456040] -[XCTRunnerIDESession testSuiteWillStart:]
+07:41:19.681 xcodebuild[19366:1454641] _XCT_testSuite:All tests didStartAt:2019-04-03 06:41:19 +0000
+07:41:22.681 xcodebuild[19366:1454687] (LOG ARBITER) Rotating message buffer with 316 messages.
+07:41:24.597 xcodebuild[19366:1454684] (LOG ARBITER) Dumping buffered message data; 316 messages.
+07:41:22.682 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8d90, state: XCTWaiterStateInProgress> done waiting
+07:41:22.682 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aa8d90, state: XCTWaiterStateInProgress>.
+07:41:22.683 xcodebuild[19366:1454641] Test runner session received request for launch process status with token 1
+07:41:22.683 xcodebuild[19366:1454641] Got status 1 from operation for token 1
+07:41:22.682 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8d90, state: XCTWaiterStateSucceeded> cleaning up `delay`
+07:41:22.682 XCCov-DemoUITests-Runner[19743:1456040] 	Checking status using token 1 for <XCUIApplicationImpl: 0x6000026d0150 test.XCCov-Demo at /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-Demo.app>
+07:41:22.683 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Request launch progress' with timeout 60.00
+07:41:22.683 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5cb0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Request launch progress`
+07:41:22.684 XCCov-DemoUITests-Runner[19743:1456044] Got status/error: 1 for token 1
+07:41:22.684 XCCov-DemoUITests-Runner[19743:1456044] <XCTWaiter: 0x600002ab5cb0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:22.684 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5cb0, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.684 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab5cb0, state: XCTWaiterStateInProgress>.
+07:41:22.684 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5cb0, state: XCTWaiterStateSucceeded> cleaning up `Request launch progress`
+07:41:22.684 XCCov-DemoUITests-Runner[19743:1456040] 	Got progress 1 for token 1
+07:41:22.684 XCCov-DemoUITests-Runner[19743:1456040] Xcode confirmed launch completion.
+07:41:22.685 XCCov-DemoUITests-Runner[19743:1456040] test.XCCov-Demo (pid:19744) setting launch token to 1
+07:41:22.685 XCCov-DemoUITests-Runner[19743:1456053] Monitor: set test.XCCov-Demo (pid:19744) for token 1
+07:41:22.685 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'isProcessIDValid' of test.XCCov-Demo (pid:19744) to be '1': fulfill=1
+07:41:22.686 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa2b40, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isProcessIDValid' of test.XCCov-Demo (pid:19744) to be '1'`
+07:41:22.686 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa2b40, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.686 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aa2b40, state: XCTWaiterStateInProgress>.
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa2b40, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isProcessIDValid' of test.XCCov-Demo (pid:19744) to be '1'`
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'isProcessIDValid' of test.XCCov-Demo (pid:19744) to be '1'
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] Waiting for <XCUIApplicationImpl: 0x6000026d0150 test.XCCov-Demo at /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-Demo.app> to activate
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5bf0, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'activated' of <XCUIApplicationImpl: 0x6000026d0150 test.XCCov-Demo at /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-Demo.app> to be '1'`
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5bf0, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab5bf0, state: XCTWaiterStateInProgress>.
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5bf0, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'activated' of <XCUIApplicationImpl: 0x6000026d0150 test.XCCov-Demo at /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-Demo.app> to be '1'`
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'activated' of <XCUIApplicationImpl: 0x6000026d0150 test.XCCov-Demo at /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-Demo.app> to be '1'
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] Acquiring background assertion for test.XCCov-Demo (pid:19744)
+07:41:22.687 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Background assertion request' with timeout 10.00
+07:41:22.688 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5d00, state: XCTWaiterStateInProgress> entering wait loop for 10.00s with expectations: `Background assertion request`
+07:41:22.691 XCCov-DemoUITests-Runner[19743:1456042] Got reply for background assertion for 19744, acquired: YES.
+07:41:22.691 XCCov-DemoUITests-Runner[19743:1456042] <XCTWaiter: 0x600002ab5d00, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:22.691 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5d00, state: XCTWaiterStateSucceeded> done waiting
+    t =     3.01s             Wait for accessibility to load
+07:41:22.691 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab5d00, state: XCTWaiterStateInProgress>.
+07:41:22.691 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5d00, state: XCTWaiterStateSucceeded> cleaning up `Background assertion request`
+07:41:22.692 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] started activity <XCActivityRecord: 0x600000bad450> 2019-04-03 06:41:22 +0000: Wait for accessibility to load
+07:41:22.771 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] will start activity <XCActivityRecord: 0x7fec0abf1920> 2019-04-03 06:41:22 +0000: Wait for accessibility to load
+07:41:22.693 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:22.693 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:22.693 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa2aa0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '1'`
+07:41:22.737 XCCov-DemoUITests-Runner[19743:1456044] Handling kAXPidStatusChangedNotification
+07:41:22.737 XCCov-DemoUITests-Runner[19743:1456044] Got kAXPidStatusChangedNotification for 19744: active
+07:41:22.737 XCCov-DemoUITests-Runner[19743:1456044] Handling kAXUserTestingNotification
+07:41:22.737 XCCov-DemoUITests-Runner[19743:1456044] Handling kAXUserTestingNotification
+07:41:22.738 XCCov-DemoUITests-Runner[19743:1456044] Handling kAXUserTestingNotification
+07:41:22.739 XCCov-DemoUITests-Runner[19743:1456043] Handling kAXUserTestingNotification
+07:41:22.796 XCCov-DemoUITests-Runner[19743:1456043] test.XCCov-Demo (pid:19744) accessibility active (loaded) 0 -> 1
+07:41:22.797 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '1': fulfill=1
+07:41:22.797 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa2aa0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:22.797 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa2aa0, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.797 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aa2aa0, state: XCTWaiterStateInProgress>.
+07:41:22.797 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa2aa0, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '1'`
+07:41:22.798 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] did finish activity <XCActivityRecord: 0x7fec0ac5fd10> 2019-04-03 06:41:22 +0000: Wait for accessibility to load (0.105493s)
+07:41:22.797 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '1'
+07:41:22.797 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] finished activity <XCActivityRecord: 0x600000bad450> 2019-04-03 06:41:22 +0000: Wait for accessibility to load (0.105493s)
+07:41:22.834 XCCov-DemoUITests-Runner[19743:1456040] Checked support for automation sessions regardless of launch mechanism on iOS: YES, current version 12 (226), requires 12 (any build)
+07:41:22.834 XCCov-DemoUITests-Runner[19743:1456040] Checked support for automation sessions on iOS: YES, current version 12 (226), requires 12 (any build)
+07:41:22.834 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Requesting automation session for test.XCCov-Demo:19744' with timeout 60.00
+07:41:22.834 XCCov-DemoUITests-Runner[19743:1456040] Requesting automation session for process 19744, automation framework path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+07:41:22.835 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8ee0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Requesting automation session for test.XCCov-Demo:19744`
+07:41:22.892 XCCov-DemoUITests-Runner[19743:1456043] Creating automation session with endpoint received for process 19744
+07:41:22.893 XCCov-DemoUITests-Runner[19743:1456043] <XCTWaiter: 0x600002aa8ee0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:22.893 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8ee0, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.893 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aa8ee0, state: XCTWaiterStateInProgress>.
+07:41:22.893 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8ee0, state: XCTWaiterStateSucceeded> cleaning up `Requesting automation session for test.XCCov-Demo:19744`
+    t =     3.21s             Wait for test.XCCov-Demo to idle
+07:41:22.896 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] will start activity <XCActivityRecord: 0x7fec07eee4f0> 2019-04-03 06:41:22 +0000: Wait for test.XCCov-Demo to idle
+07:41:22.894 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] started activity <XCActivityRecord: 0x600000b30dc0> 2019-04-03 06:41:22 +0000: Wait for test.XCCov-Demo to idle
+07:41:22.895 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'get screens' with timeout 30.00
+07:41:22.895 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5d30, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+07:41:22.895 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5d30, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.895 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002ab5d30, state: XCTWaiterStateInProgress>.
+07:41:22.895 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002ab5d30, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+07:41:22.897 XCCov-DemoUITests-Runner[19743:1456040] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 1
+07:41:22.897 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'Request screenshot' with timeout 30.00
+07:41:22.897 XCCov-DemoUITests-Runner[19743:1456040] Creating future for 'get screen scale' with timeout 30.00
+07:41:22.898 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8ef0, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+07:41:22.898 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8ef0, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.898 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aa8ef0, state: XCTWaiterStateInProgress>.
+07:41:22.898 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8ef0, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+07:41:22.899 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aba3d0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request screenshot`
+07:41:22.984 XCCov-DemoUITests-Runner[19743:1456043] <XCTWaiter: 0x600002aba3d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:22.984 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aba3d0, state: XCTWaiterStateSucceeded> done waiting
+07:41:22.984 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aba3d0, state: XCTWaiterStateInProgress>.
+07:41:22.984 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aba3d0, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+07:41:22.985 XCCov-DemoUITests-Runner[19743:1456040] Activity 57069A74-0A06-424A-B48A-A7B8CB402F7D added attachment with name 'kXCTAttachmentLegacyScreenImageData', UTI 'public.jpeg', lifetime 'deleteOnSuccess', hasPayload: YES.
+07:41:22.985 XCCov-DemoUITests-Runner[19743:1456040] Waiting for test.XCCov-Demo (PID 19744) quiescence...
+07:41:22.985 XCCov-DemoUITests-Runner[19743:1456040] Checked support for automation session with main run loop idle notifications on iOS: YES, current version 12 (226), requires 12 (any build)
+07:41:22.986 XCCov-DemoUITests-Runner[19743:1456040] Requesting main run loop idle notification using automation session for test.XCCov-Demo (pid:19744)
+07:41:22.987 XCCov-DemoUITests-Runner[19743:1456040] Checked support for automation session with animations idle notifications on iOS: YES, current version 12 (226), requires 12 (any build)
+07:41:22.987 XCCov-DemoUITests-Runner[19743:1456040] Requesting animations idle notification using automation session for test.XCCov-Demo (pid:19744)
+07:41:22.988 XCCov-DemoUITests-Runner[19743:1456040] Waiting on quiescence state variables
+07:41:22.988 XCCov-DemoUITests-Runner[19743:1456044] Got animations reply for test.XCCov-Demo (PID 19744)
+07:41:22.988 XCCov-DemoUITests-Runner[19743:1456044] Animations are not active.
+07:41:22.988 XCCov-DemoUITests-Runner[19743:1456053] test.XCCov-Demo (pid:19744) animationsHaveFinished 0 -> 1
+07:41:22.988 XCCov-DemoUITests-Runner[19743:1456044] Posting KVO notifications for animationsHaveFinished
+07:41:22.989 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0': fulfill=1
+07:41:22.990 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:22.990 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:22.990 XCCov-DemoUITests-Runner[19743:1456040] Fulfilling (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1') because Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' is fulfilled
+07:41:22.991 XCCov-DemoUITests-Runner[19743:1456040] isQuiescent: self.eventLoopHasIdled: 0 && self.animationsHaveFinished: 1
+07:41:22.991 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:22.991 XCCov-DemoUITests-Runner[19743:1456040] isQuiescent: self.eventLoopHasIdled: 0 && self.animationsHaveFinished: 1
+07:41:22.992 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:22.992 XCCov-DemoUITests-Runner[19743:1456040] Not fulfilling (Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' AND (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1')) because Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' is not fulfilled
+07:41:22.992 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'foreground' of test.XCCov-Demo (pid:19744) to be '0': fulfill=0
+07:41:22.993 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'foreground' of test.XCCov-Demo (pid:19744) to be '0': fulfill=0
+07:41:22.993 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0': fulfill=0
+07:41:22.993 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0': fulfill=0
+07:41:22.994 XCCov-DemoUITests-Runner[19743:1456040] Not fulfilling (Expect value of 'foreground' of test.XCCov-Demo (pid:19744) to be '0' OR (Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' AND (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1')) OR Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0') because no subexpectations are fulfilled
+07:41:22.994 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8f60, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `(Expect value of 'foreground' of test.XCCov-Demo (pid:19744) to be '0' OR (Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' AND (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1')) OR Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0')`
+07:41:23.177 XCCov-DemoUITests-Runner[19743:1456043] Handling kAXPidStatusChangedNotification
+07:41:23.177 XCCov-DemoUITests-Runner[19743:1456043] Got kAXPidStatusChangedNotification for 19744: active
+07:41:23.181 XCCov-DemoUITests-Runner[19743:1456043] Handling kAXPidStatusChangedNotification
+07:41:23.181 XCCov-DemoUITests-Runner[19743:1456043] Got kAXPidStatusChangedNotification for 19744: active
+07:41:23.203 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0': fulfill=0
+07:41:23.203 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0': fulfill=0
+07:41:23.366 XCCov-DemoUITests-Runner[19743:1456046] Handling kAXUserTestingNotification
+07:41:23.366 XCCov-DemoUITests-Runner[19743:1456046] Handling kAXUserTestingNotification
+07:41:23.368 XCCov-DemoUITests-Runner[19743:1456046] Got event loop idle reply for test.XCCov-Demo (PID 19744)
+07:41:23.368 XCCov-DemoUITests-Runner[19743:1456046] Event loop is idle.
+07:41:23.368 XCCov-DemoUITests-Runner[19743:1456041] Handling kAXUserTestingNotification
+07:41:23.369 XCCov-DemoUITests-Runner[19743:1456043] test.XCCov-Demo (pid:19744) eventLoopHasIdled 0 -> 1
+07:41:23.370 XCCov-DemoUITests-Runner[19743:1456043] Posting KVO notifications for eventLoopHasIdled
+07:41:23.370 XCCov-DemoUITests-Runner[19743:1456043] isQuiescent: self.eventLoopHasIdled: 1 && self.animationsHaveFinished: 1
+07:41:23.370 XCCov-DemoUITests-Runner[19743:1456043] isQuiescent: self.eventLoopHasIdled: 1 && self.animationsHaveFinished: 1
+07:41:23.370 XCCov-DemoUITests-Runner[19743:1456043] KVO change: checked status of Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1': fulfill=1
+07:41:23.370 XCCov-DemoUITests-Runner[19743:1456043] Fulfilling (Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' AND (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1')) because all subexpectations are fulfilled
+07:41:23.370 XCCov-DemoUITests-Runner[19743:1456043] Fulfilling (Expect value of 'foreground' of test.XCCov-Demo (pid:19744) to be '0' OR (Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' AND (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1')) OR Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0') because (Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' AND (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1')) is fulfilled
+07:41:23.372 XCCov-DemoUITests-Runner[19743:1456043] <XCTWaiter: 0x600002aa8f60, state: XCTWaiterStateSucceeded>: cancelWaiting
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8f60, state: XCTWaiterStateSucceeded> done waiting
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aa8f60, state: XCTWaiterStateInProgress>.
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8f60, state: XCTWaiterStateSucceeded> cleaning up `(Expect value of 'foreground' of test.XCCov-Demo (pid:19744) to be '0' OR (Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1' AND (Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1')) OR Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0')`
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'foreground' of test.XCCov-Demo (pid:19744) to be '0'
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'isQuiescent' of test.XCCov-Demo (pid:19744) to be '1'
+07:41:23.379 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] did finish activity <XCActivityRecord: 0x7fec0a9af9e0> 2019-04-03 06:41:22 +0000: Wait for test.XCCov-Demo to idle (0.48012s)
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'hasBridgedProcess' of test.XCCov-Demo (pid:19744) to be '0'
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'bridgedProcess.isQuiescent' of test.XCCov-Demo (pid:19744) to be '1'
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect value of 'accessibilityActive' of test.XCCov-Demo (pid:19744) to be '0'
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] test.XCCov-Demo has quiesced or quiescence timeout has elapsed.
+07:41:23.374 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] finished activity <XCActivityRecord: 0x600000b30dc0> 2019-04-03 06:41:22 +0000: Wait for test.XCCov-Demo to idle (0.48012s)
+07:41:23.376 XCCov-DemoUITests-Runner[19743:1456040] Delaying 1s to mitigate rdar://problem/29883788 & <rdar://problem/23764033> UI tests failing in sim because splash screen is occluding the elements that the tests are trying to interact with
+07:41:23.377 XCCov-DemoUITests-Runner[19743:1456041] Monitor: tracking launch request for test.XCCov-Demo (pid:19744)
+07:41:24.381 XCCov-DemoUITests-Runner[19743:1456040] application launched and quiesced
+07:41:24.382 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] finished activity <XCActivityRecord: 0x600000bc71b0> 2019-04-03 06:41:19 +0000: Launch test.XCCov-Demo (4.58691s)
+07:41:24.383 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] did finish activity <XCActivityRecord: 0x7fec0aa04740> 2019-04-03 06:41:19 +0000: Launch test.XCCov-Demo (4.58691s)
+07:41:24.383 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] finished activity <XCActivityRecord: 0x600000bcb6b0> 2019-04-03 06:41:19 +0000: Open test.XCCov-Demo (4.63554s)
+    t =     4.70s Tear Down
+07:41:24.387 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] did finish activity <XCActivityRecord: 0x7fec07eee500> 2019-04-03 06:41:19 +0000: Open test.XCCov-Demo (4.63554s)
+07:41:24.385 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] finished activity <XCActivityRecord: 0x600000baf200> 2019-04-03 06:41:19 +0000: Set Up (4.65014s)
+07:41:24.391 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] did finish activity <XCActivityRecord: 0x7fec0a995ae0> 2019-04-03 06:41:19 +0000: Set Up (4.65014s)
+07:41:24.386 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] started activity <XCActivityRecord: 0x600000b30230> 2019-04-03 06:41:24 +0000: Tear Down
+07:41:24.391 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] will start activity <XCActivityRecord: 0x7fec0ac12240> 2019-04-03 06:41:24 +0000: Tear Down
+07:41:24.387 XCCov-DemoUITests-Runner[19743:1456040] -[XCCov_DemoUITests testExample] finished activity <XCActivityRecord: 0x600000b30230> 2019-04-03 06:41:24 +0000: Tear Down (0.000728965s)
+07:41:24.391 xcodebuild[19366:1454641] -[XCCov_DemoUITests.XCCov_DemoUITests testExample] did finish activity <XCActivityRecord: 0x7fec0aa92fe0> 2019-04-03 06:41:24 +0000: Tear Down (0.000728965s)
+07:41:24.388 XCCov-DemoUITests-Runner[19743:1456043] Monitor: termination is being tracked for test.XCCov-Demo (pid:19744)
+07:41:24.388 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'applicationState' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:24.388 XCCov-DemoUITests-Runner[19743:1456040] KVO change: checked status of Expect value of 'applicationState' of test.XCCov-Demo (pid:19744) to be '1': fulfill=0
+07:41:24.388 XCCov-DemoUITests-Runner[19743:1456040] Monitor: waiting for state changes to launched application(s): test.XCCov-Demo (pid:19744)
+07:41:24.388 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8b40, state: XCTWaiterStateInProgress> entering wait loop for 0.20s with expectations: `Expect change to state of test.XCCov-Demo (pid:19744)`
+07:41:24.593 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8b40, state: XCTWaiterStateInProgress> done waiting
+07:41:24.594 XCCov-DemoUITests-Runner[19743:1456040] Canceling watchdog for <XCTWaiter: 0x600002aa8b40, state: XCTWaiterStateInProgress>.
+Test Case '-[XCCov_DemoUITests.XCCov_DemoUITests testExample]' passed (4.911 seconds).
+07:41:24.594 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa8b40, state: XCTWaiterStateSucceeded> cleaning up `Expect change to state of test.XCCov-Demo (pid:19744)`
+07:41:24.594 XCCov-DemoUITests-Runner[19743:1456040] cleaning up Expect change to state of test.XCCov-Demo (pid:19744)
+07:41:24.594 XCCov-DemoUITests-Runner[19743:1456040] Monitor: done waiting for state changes to launched application(s)
+07:41:24.594 XCCov-DemoUITests-Runner[19743:1456040] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Suite 'XCCov_DemoUITests' passed at 2019-04-03 07:41:24.595.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.911 (4.913) seconds
+07:41:24.596 xcodebuild[19366:1454641] _XCT_testCaseDidFinishForTestClass:XCCov_DemoUITests.XCCov_DemoUITests method:testExample withStatus:passed duration:4.910935997962952
+07:41:24.595 XCCov-DemoUITests-Runner[19743:1456040] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'XCCov-DemoUITests.xctest' passed at 2019-04-03 07:41:24.596.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.911 (4.916) seconds
+Test Suite 'All tests' passed at 2019-04-03 07:41:24.598.
+	 Executed 1 test, with 0 failures (0 unexpected) in 4.911 (4.920) seconds
+07:41:24.600 xcodebuild[19366:1454641] _XCT_testSuite:XCCov_DemoUITests didFinishAt:2019-04-03 06:41:24 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:4.910935997962952 totalDuration:4.9130779504776
+07:41:24.596 XCCov-DemoUITests-Runner[19743:1456040] Activity statistics for XCCov_DemoUITests:
+07:41:24.596 XCCov-DemoUITests-Runner[19743:1456040] 0.11s : Wait for accessibility to load
+07:41:24.596 XCCov-DemoUITests-Runner[19743:1456040] 0.11s : Other
+07:41:24.596 XCCov-DemoUITests-Runner[19743:1456040] 0.48s : Wait for test.XCCov-Demo to idle
+07:41:24.596 XCCov-DemoUITests-Runner[19743:1456040] 4.00s : Launch test.XCCov-Demo
+07:41:24.600 xcodebuild[19366:1454641] _XCT_testSuite:XCCov-DemoUITests.xctest didFinishAt:2019-04-03 06:41:24 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:4.910935997962952 totalDuration:4.915705919265747
+07:41:24.596 XCCov-DemoUITests-Runner[19743:1456040] Total time in activities: 4.70s
+07:41:24.597 XCCov-DemoUITests-Runner[19743:1456040] -[XCTRunnerIDESession testSuiteDidFinish:]
+07:41:24.598 XCCov-DemoUITests-Runner[19743:1456040] Activity statistics for XCCov-DemoUITests.xctest:
+07:41:24.598 XCCov-DemoUITests-Runner[19743:1456040] 0.11s : Wait for accessibility to load
+07:41:24.598 XCCov-DemoUITests-Runner[19743:1456040] 0.11s : Other
+07:41:24.598 XCCov-DemoUITests-Runner[19743:1456040] 0.48s : Wait for test.XCCov-Demo to idle
+07:41:24.598 XCCov-DemoUITests-Runner[19743:1456040] 4.00s : Launch test.XCCov-Demo
+07:41:24.601 xcodebuild[19366:1454641] _XCT_testSuite:All tests didFinishAt:2019-04-03 06:41:24 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:4.910935997962952 totalDuration:4.919532060623169
+07:41:24.598 XCCov-DemoUITests-Runner[19743:1456040] Total time in activities: 4.70s
+07:41:24.598 XCCov-DemoUITests-Runner[19743:1456040] -[XCTRunnerIDESession testSuiteDidFinish:]
+07:41:24.599 XCCov-DemoUITests-Runner[19743:1456040] Activity statistics for All tests:
+07:41:24.599 XCCov-DemoUITests-Runner[19743:1456040] 0.11s : Wait for accessibility to load
+07:41:24.599 XCCov-DemoUITests-Runner[19743:1456040] 0.11s : Other
+07:41:24.602 xcodebuild[19366:1454641] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+07:41:24.599 XCCov-DemoUITests-Runner[19743:1456040] 0.48s : Wait for test.XCCov-Demo to idle
+07:41:24.599 XCCov-DemoUITests-Runner[19743:1456040] 4.00s : Launch test.XCCov-Demo
+07:41:24.600 XCCov-DemoUITests-Runner[19743:1456040] Total time in activities: 4.70s
+07:41:24.603 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec0a4889a0 on simulator was relinquished, 2 claims remain.
+07:41:24.603 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec0a4889a0 on simulator was relinquished, 2 claims remain.
+07:41:24.605 xcodebuild[19366:1454641] Observed termination of tracker for token 1 for launch of test.XCCov-Demo at /Users/shashi/workspace/XCCov-Demo/Build/Build/Products/Debug-iphonesimulator/XCCov-Demo.app
+07:41:24.600 XCCov-DemoUITests-Runner[19743:1456040] Finished running suite.
+07:41:24.600 XCCov-DemoUITests-Runner[19743:1456040] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+07:41:24.600 XCCov-DemoUITests-Runner[19743:1456040] Exited test execution event loop
+07:41:24.601 XCCov-DemoUITests-Runner[19743:1456040] Calling completion.
+07:41:24.601 XCCov-DemoUITests-Runner[19743:1456040] <XCTWaiter: 0x600002aa0f20, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `IDE confirmed the end of session`
+07:41:24.606 XCCov-DemoUITests-Runner[19743:1456044] Automation session connection to pid 19744 interrupted
+07:41:24.622 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> got death notice for pid 19744, removing from SimulatorSessionMap
+07:41:24.623 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> checking to see if pid 19743 is valid: kill(pid, 0) = 0 (YES, it's still running)
+07:41:24.628 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> got death notice for pid 19743, removing from SimulatorSessionMap
+07:41:24.628 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec07ee95a0 on simulator was relinquished, 1 claims remain.
+07:41:24.628 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec07ee95a0 on simulator was relinquished, 1 claims remain.
+07:41:24.628 xcodebuild[19366:1454641] 📱<DVTiPhoneSimulator (0x7fec0ab22d00), iPhone Xʀ, unknown class, 12.2 (16E226), E3EE70E1-C238-41F1-A8CD-A44D32D105CE> claim LaunchSessionClaim_0x7fec07ee95a0 on simulator was relinquished, 1 claims remain.
+07:41:24.632 xcodebuild[19366:1454687] <XCTTestRunnerSession: 0x7fec0a9838a0> lost its connection.
+07:41:24.632 xcodebuild[19366:1454641] Lost connection to test process
+07:41:24.634 xcodebuild[19366:1455751] Closing socket 25 to testmanagerd for Sim iPhone Xʀ
+07:41:24.881 xcodebuild[19366:1454641] <IDETestOperationCoordinator: 0x7fec07eeb370> finished receiving data from testing launch session
+07:41:24.881 xcodebuild[19366:1454641] <IDETestOperationCoordinator: 0x7fec07eeb370>: _considerFlushingDelegateBlockQueue - nothing to flush
+07:41:24.881 xcodebuild[19366:1454641] _finishWithError:(null)

@@ -1,0 +1,12 @@
+07:41:14.832 xcodebuild[19366:1454687] Got authorization request for pid 19740
+
+07:41:14.833 xcodebuild[19366:1454687] Requesting authorization for pid 19740
+
+07:41:14.834 xcodebuild[19366:1455756] Got reply to authorization request for pid 19740 (result:error): 1: (null)
+
+07:41:19.254 xcodebuild[19366:1455751] Got authorization request for pid 19743
+
+07:41:19.254 xcodebuild[19366:1455751] Requesting authorization for pid 19743
+
+07:41:19.255 xcodebuild[19366:1455757] Got reply to authorization request for pid 19743 (result:error): 1: (null)
+
