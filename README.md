@@ -30,19 +30,22 @@ We can use `xccov` command line tool with `xcrun` untility if thats not inside t
 
 * View Report in the plain format 
 
-            $ xcrun xccov view Build/Logs/Test/Run_____.xcresult/-Test/*.xccovreport
+            $ xcrun xccov view Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/action.xccovreport
 
 *  View Report in the JSON format 
 
-            $ xcrun xccov view --json Build/Logs/Test/Run_____.xcresult/-Test/*.xccovreport
+            $ xcrun xccov view --json Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/action.xccovreport
 
 * List the files available for the code coverage data 
 
-            $ xcrun xccov view --file-list Build/Logs/Test/Run_____.xcresult/-Test/*.xccovarchive/
+            $ xcrun xccov view --file-list Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/action.xccovarchive
 
 * Show the coverage for perticular file 
         
-            $ xcrun xccov view --file ~/Desktop/XCCov-Demo/XCCov-Demo/AppDelegate.swift  Build/Logs/Test/Run_____.xcresult/-Test/*.xccovarchive/
+            $ xcrun xccov view --file ~/Desktop/XCCov-Demo/XCCov-Demo/AppDelegate.swift  Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/action.xccovarchive/
 
 
+* Merge Reports 
 
+            $ xcrun xccov merge --outReport ~/Desktop/out.xccovreport --outArchive ~/Desktop/out.acarchive Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/action.xccovreport Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-40-58-+0100.xcresult/3_Test/action.xccovarchive/ Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-52-58-+0100.xcresult/3_Test/action.xccovreport Build/Logs/Test/Run-XCCov-Demo-2019.04.03_07-52-58-+0100.xcresult/3_Test/action.xccovarchive/
+This will create merge reports file on desktop. 
