@@ -1,0 +1,376 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ModelController"
+provides-nominal:
+- "10XCCov_Demo15ModelControllerC"
+provides-member:
+- ["10XCCov_Demo15ModelControllerC", ""]
+provides-dynamic-lookup:
+- "pageViewController"
+depends-top-level:
+- !private "+="
+- !private "-="
+- !private "=="
+- !private ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "DataViewController"
+- !private "DateFormatter"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "ModelController"
+- !private "NSNotFound"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "UIPageViewController"
+- "UIPageViewControllerDataSource"
+- "UIStoryboard"
+- "UIViewController"
+- !private "||"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "index"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "index"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "NSNotFound"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataObject"]
+- !private ["s7CVarArgP", "index"]
+- !private ["s7CVarArgP", "indexOfViewController"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "monthSymbols"]
+- !private ["s7CVarArgP", "pageData"]
+- ["s7CVarArgP", "pageViewController"]
+- ["s7CVarArgP", "presentationCount"]
+- ["s7CVarArgP", "presentationCountForPageViewController"]
+- ["s7CVarArgP", "presentationIndex"]
+- ["s7CVarArgP", "presentationIndexForPageViewController"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "viewControllerAtIndex"]
+- !private ["Sl", "count"]
+- !private ["Sl", "index"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "index"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotFound"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataObject"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "indexOfViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "monthSymbols"]
+- !private ["s28CustomDebugStringConvertibleP", "pageData"]
+- ["s28CustomDebugStringConvertibleP", "pageViewController"]
+- ["s28CustomDebugStringConvertibleP", "presentationCount"]
+- ["s28CustomDebugStringConvertibleP", "presentationCountForPageViewController"]
+- ["s28CustomDebugStringConvertibleP", "presentationIndex"]
+- ["s28CustomDebugStringConvertibleP", "presentationIndexForPageViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllerAtIndex"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "NSNotFound"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataObject"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "indexOfViewController"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "monthSymbols"]
+- !private ["s23CustomStringConvertibleP", "pageData"]
+- ["s23CustomStringConvertibleP", "pageViewController"]
+- ["s23CustomStringConvertibleP", "presentationCount"]
+- ["s23CustomStringConvertibleP", "presentationCountForPageViewController"]
+- ["s23CustomStringConvertibleP", "presentationIndex"]
+- ["s23CustomStringConvertibleP", "presentationIndexForPageViewController"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "viewControllerAtIndex"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "index"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10XCCov_Demo18DataViewControllerC", "dataObject"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "monthSymbols"]
+- !private ["Se", "count"]
+- !private ["Se", "index"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "index"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "DateFormatter"]
+- !private ["SQ", "NSNotFound"]
+- ["SQ", ""]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataObject"]
+- !private ["SQ", "index"]
+- !private ["SQ", "indexOfViewController"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "monthSymbols"]
+- !private ["SQ", "pageData"]
+- ["SQ", "pageViewController"]
+- ["SQ", "presentationCount"]
+- ["SQ", "presentationCountForPageViewController"]
+- ["SQ", "presentationIndex"]
+- ["SQ", "presentationIndexForPageViewController"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "viewControllerAtIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "monthSymbols"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", "NSNotFound"]
+- ["SH", ""]
+- !private ["SH", "count"]
+- !private ["SH", "dataObject"]
+- !private ["SH", "index"]
+- !private ["SH", "indexOfViewController"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "monthSymbols"]
+- !private ["SH", "pageData"]
+- ["SH", "pageViewController"]
+- ["SH", "presentationCount"]
+- ["SH", "presentationCountForPageViewController"]
+- ["SH", "presentationIndex"]
+- ["SH", "presentationIndexForPageViewController"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "subscript"]
+- !private ["SH", "viewControllerAtIndex"]
+- ["10XCCov_Demo15ModelControllerC", "DataViewController"]
+- !private ["10XCCov_Demo15ModelControllerC", "DateFormatter"]
+- ["10XCCov_Demo15ModelControllerC", "Int"]
+- !private ["10XCCov_Demo15ModelControllerC", "NSNotFound"]
+- ["10XCCov_Demo15ModelControllerC", "String"]
+- ["10XCCov_Demo15ModelControllerC", "UIPageViewController"]
+- ["10XCCov_Demo15ModelControllerC", "UIStoryboard"]
+- ["10XCCov_Demo15ModelControllerC", "UIViewController"]
+- ["10XCCov_Demo15ModelControllerC", "deinit"]
+- ["10XCCov_Demo15ModelControllerC", "indexOfViewController"]
+- ["10XCCov_Demo15ModelControllerC", "init"]
+- ["10XCCov_Demo15ModelControllerC", "pageData"]
+- ["10XCCov_Demo15ModelControllerC", "pageViewController"]
+- ["10XCCov_Demo15ModelControllerC", "presentationCount"]
+- ["10XCCov_Demo15ModelControllerC", "presentationCountForPageViewController"]
+- ["10XCCov_Demo15ModelControllerC", "presentationIndex"]
+- ["10XCCov_Demo15ModelControllerC", "presentationIndexForPageViewController"]
+- ["10XCCov_Demo15ModelControllerC", "viewControllerAtIndex"]
+- !private ["SM", "count"]
+- !private ["SM", "index"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "index"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "dataObject"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "monthSymbols"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "monthSymbols"]
+- !private ["So26NSExtensionRequestHandlingP", "dataObject"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- ["So8NSObjectC", "DataViewController"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSNotFound"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIPageViewController"]
+- ["So8NSObjectC", "UIStoryboard"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dataObject"]
+- ["So8NSObjectC", "indexOfViewController"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "monthSymbols"]
+- ["So8NSObjectC", "pageData"]
+- ["So8NSObjectC", "pageViewController"]
+- ["So8NSObjectC", "presentationCount"]
+- ["So8NSObjectC", "presentationCountForPageViewController"]
+- ["So8NSObjectC", "presentationIndex"]
+- ["So8NSObjectC", "presentationIndexForPageViewController"]
+- !private ["So8NSObjectC", "storyboard"]
+- ["So8NSObjectC", "viewControllerAtIndex"]
+- !private ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "NSNotFound"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataObject"]
+- !private ["So8NSObjectP", "indexOfViewController"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "monthSymbols"]
+- !private ["So8NSObjectP", "pageData"]
+- ["So8NSObjectP", "pageViewController"]
+- ["So8NSObjectP", "presentationCount"]
+- ["So8NSObjectP", "presentationCountForPageViewController"]
+- ["So8NSObjectP", "presentationIndex"]
+- ["So8NSObjectP", "presentationIndexForPageViewController"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "viewControllerAtIndex"]
+- !private ["Sk", "count"]
+- !private ["Sk", "index"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "index"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "count"]
+- !private ["ST", "index"]
+- !private ["ST", "subscript"]
+- !private ["So21UIAppearanceContainerP", "dataObject"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "dataObject"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "dataObject"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So30UIPageViewControllerDataSourceP", "DateFormatter"]
+- !private ["So30UIPageViewControllerDataSourceP", "NSNotFound"]
+- ["So30UIPageViewControllerDataSourceP", ""]
+- !private ["So30UIPageViewControllerDataSourceP", "indexOfViewController"]
+- !private ["So30UIPageViewControllerDataSourceP", "pageData"]
+- ["So30UIPageViewControllerDataSourceP", "pageViewController"]
+- ["So30UIPageViewControllerDataSourceP", "presentationCount"]
+- ["So30UIPageViewControllerDataSourceP", "presentationCountForPageViewController"]
+- ["So30UIPageViewControllerDataSourceP", "presentationIndex"]
+- ["So30UIPageViewControllerDataSourceP", "presentationIndexForPageViewController"]
+- !private ["So30UIPageViewControllerDataSourceP", "viewControllerAtIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So11UIResponderC", "dataObject"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "dataObject"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So16UIStateRestoringP", "dataObject"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "dataObject"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "dataObject"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So16UIViewControllerC", "dataObject"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "index"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotFound"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexOfViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "monthSymbols"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pageData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pageViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationCountForPageViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationIndex"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationIndexForPageViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllerAtIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10XCCov_Demo18DataViewControllerC"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "So11NSFormatterC"
+- "SH"
+- "10XCCov_Demo15ModelControllerC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- "So30UIPageViewControllerDataSourceP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e866002ffad298ea5f4aa3eeaae3f459"
